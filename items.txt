@@ -1,0 +1,15 @@
+npm init - iniciar el proyecto
+npm install ts-node-dev -- para que node interprete el typescript
+npm install @types/express -- para que lo que este en js lo interprete express como ts
+npm install @types/jsonwebtoken -- para agregar el jsonwebtoken
+npm install @types/bcrypt -- para encriptar las contraseñas
+npm install @types/node
+npm rimraf -- Para borrar carpetas en el build
+prisma --save-dev -- Para el enlace con postgres
+npx tsc --init --outDir dist/ --rootDir src -- Inicializar el ts
+ "dev" : "tsnd -- respawn --clear src/app.ts" -- Iniciarlizar la aplicacion (npm run dev);
+ npm install @prisma/client -- Crear el prisma client
+
+ npx prisma init
+ npx prisma generate
+ npx prisma migrate dev
